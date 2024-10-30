@@ -9,22 +9,15 @@ body {
     background-size: 100%;
 }
 
-header {
-    padding: 0.1em;
-    margin-bottom: 2rem;
-    background-color: var(--accent);
-    color: white;
-    text-align: center;
-    font-size: 2em;
-    -moz-user-select: none;
-	-webkit-user-select: none;
-	user-select: none;
-}
 
 .schedule {
+    position: absolute;
+    top: 50%;
+    left: 12.5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     border-collapse: collapse;
     width: 75%;
-    margin: auto;
     text-align: center;
     -moz-user-select: none;
 	-webkit-user-select: none;
